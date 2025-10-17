@@ -6,13 +6,13 @@ import InteractiveEditor from './components/InteractiveEditor'
 import './App.css'
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || "AIzaSyDzyjLVHhGE5NbDsuaHhhZ4tdvrUgEJt3E",
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || "krishnasinghportfolio.firebaseapp.com",
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || "krishnasinghportfolio",
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || "krishnasinghportfolio.firebasestorage.app",
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "811580744649",
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || "1:811580744649:web:44475b391b166b14fafe18",
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || "G-THQRRDJSR0"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID
 }
 
 const app = initializeApp(firebaseConfig)
